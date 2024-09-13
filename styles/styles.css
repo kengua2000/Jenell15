@@ -1,0 +1,171 @@
+/* Fondo general */
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    background-color: #f3e5f5;
+    background-image: url('../images/s.png'); /* Reemplazar con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #040202;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    border: 3px solid #b38b5a; /* Color del borde */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+/* Estilo para los títulos */
+h1 {
+    color: #326e92;
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #326e92;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Estilo para la fecha */
+.fecha h2 {
+    font-size: 6em;
+    color: #b38b5a;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Estilo de la cuenta regresiva */
+.cuenta-regresiva {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #b38b5a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    color: #326e92;
+}
+
+#countdown div {
+    text-align: center;
+}
+
+/* Estilo del video */
+.video video {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #b38b5a;
+}
+
+/* Estilo de los iconos */
+i {
+    color: #326e92;
+    margin-right: 8px;
+}
+
+/* Estilo de los enlaces */
+.enlaces a {
+    display: block;
+    margin: 10px 0;
+    color: #326e92;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlaces a:hover {
+    text-decoration: underline;
+}
+
+.imagen-invitacion img {
+    border: 5px solid #b38b5a; /* Color y grosor del borde */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo de la sección de confirmación */
+.confirmacion {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #b38b5a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.confirmacion h2 {
+    color: #326e92;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+}
+
+.confirmacion p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.btn-confirmacion {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #326e92;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #326e92;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-confirmacion:hover {
+    background-color: #254c68;
+    border-color: #254c68;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .fecha h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    #countdown {
+        flex-direction: column;
+    }
+}
