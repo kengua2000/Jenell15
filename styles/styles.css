@@ -144,28 +144,43 @@ i {
 
 
 /* Responsive */
+/* Ajustes para dispositivos móviles */
 @media only screen and (max-width: 600px) {
+    /* Ajustar el contenedor principal */
     .container {
         padding: 15px;
+        margin: 10px;
     }
 
+    /* Ajustar tamaños de fuente para títulos */
     h1 {
-        font-size: 2.5em;
-    }
-
-    h2 {
-        font-size: 1.8em;
-    }
-
-    .fecha h2 {
         font-size: 2em;
     }
 
-    p {
+    h2 {
+        font-size: 1.5em;
+    }
+
+    /* Ajustar tamaño de la cuenta regresiva */
+    #countdown {
+        font-size: 1em;
+        flex-direction: column;
+    }
+
+    /* Ajustar tamaño del video */
+    .video video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ajustar el tamaño de los enlaces */
+    .enlaces a, .confirmacion a {
         font-size: 1em;
     }
 
-    #countdown {
-        flex-direction: column;
+    /* Ajustar márgenes y relleno de la sección de confirmación */
+    .confirmacion {
+        padding: 10px;
     }
 }
+
