@@ -65,7 +65,7 @@ h2 {
 #countdown {
     display: flex;
     justify-content: space-around;
-    font-size: 2em;
+    font-size: 3em;
     color: #326e92;
 }
 
