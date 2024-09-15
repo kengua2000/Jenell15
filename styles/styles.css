@@ -100,7 +100,7 @@ i {
 }
 
 .imagen-invitacion img {
-    border: 5px solid #b38b5a; /* Color y grosor del borde */
+    border: 2px solid #b38b5a; /* Color y grosor del borde */
     border-radius: 10px; /* Bordes redondeados */
     max-width: 100%; /* La imagen debe ajustarse al ancho del contenedor */
     height: auto;
@@ -164,6 +164,7 @@ i {
     h2 {
         font-size: 1.5em;
     }
+
 
     /* Ajustar tamaño de la cuenta regresiva */
     #countdown {
