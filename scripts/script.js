@@ -1,5 +1,5 @@
 // Configuración de la fecha de la celebración
-const eventDate = new Date("September 21, 2024 18:00:00").getTime();
+const eventDate = new Date("July 12, 2025 18:00:00").getTime();
 
 // Actualizar la cuenta regresiva cada segundo
 const countdown = setInterval(() => {
