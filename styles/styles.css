@@ -31,14 +31,14 @@ body {
 
 /* Estilo para los títulos */
 h1 {
-    color: #593b59;
+    color: #326e92;
     font-family: 'Parisienne', cursive;
     font-size: 3em;
     margin-bottom: 5px;
 }
 
 h2 {
-    color: #593b59;
+    color: #326e92;
     font-family: 'Parisienne', cursive;
     font-size: 2em;
     margin-top: 20px;
@@ -66,7 +66,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     font-size: 3em;
-    color: #593b59;
+    color: #326e92;
 }
 
 #countdown div {
@@ -82,7 +82,7 @@ h2 {
 
 /* Estilo de los iconos */
 i {
-    color: #593b59;
+    color: #326e92;
     margin-right: 8px;
 }
 
@@ -90,7 +90,7 @@ i {
 .enlaces a {
     display: block;
     margin: 10px 0;
-    color: #593b59;
+    color: #326e92;
     text-decoration: none;
     font-weight: bold;
 }
@@ -118,7 +118,7 @@ i {
 }
 
 .confirmacion h2 {
-    color: #593b59;
+    color: #326e92;
     font-family: 'Parisienne', cursive;
     font-size: 2em;
 }
@@ -133,17 +133,17 @@ i {
     margin: 10px 0;
     padding: 10px 20px;
     color: #fff;
-    background-color: #593b59;
+    background-color: #326e92;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    border: 2px solid #593b59;
+    border: 2px solid #326e92;
     transition: background-color 0.3s, border-color 0.3s;
 }
 
 .btn-confirmacion:hover {
-    background-color: #593b59;
-    border-color: #593b59;
+    background-color: #326e92;
+    border-color: #326e92;
 }
 
 
